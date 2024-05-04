@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Digital Watchface</title>
+<style>
+body {
+font-family: Arial;
+}
+.watchface {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+height: 100vh;
+}
+.heart-rate-graph {
+width: 100%;
+height: 200px;
+margin: 20px 0;
+}
+.bar {
+width: 10px;
+height: 100%;
+background-color: #f44336;
+margin-right: 2px;
+}
+.start-stop-button {
+padding: 10px 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+background-color: #fff;
+color: #000;
+cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div class="watchface">
+<h1>Digital Watchface</h1>
+<div class="heart-rate-graph"></div>
+<button class="start-stop-button">Start/Stop</button>
+</div>
+</body>
+</html>
+
